@@ -24,7 +24,7 @@ body{
     justify-content: center;
     padding:1rem;
     align-items: baseline;
-    border:2px solid black;
+    
     max-width: 23rem;
     height:auto;
     background-color: hsl(0, 0%, 100%);
