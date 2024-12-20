@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    min-width:100vw;
+    flex-direction: column;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    padding:16px;
+    font-family:'Figtree',sans-serif;
+    background-color:  hsl(47, 88%, 63%);
+    text-align: center;
+}
+.container{
+    
+    border-radius: 1rem;
+    /* position: relative; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding:1rem;
+    align-items: baseline;
+    border:2px solid black;
+    max-width: 23rem;
+    height:auto;
+    background-color: hsl(0, 0%, 100%);
+}
+svg{
+    
+    border-radius: 1rem;
+    display:block;
+    height:auto;
+    width:100%;
+    max-width: 100%;
+}
+.learningTitle{
+    /* position:relative;
+    top:1rem;
+    left:-7.1rem; */
+    
+    margin-top: 1rem;
+    padding: 0.3rem;
+    height: auto;
+    border-radius: 0.3rem;
+    display:inline;
+    width:4rem;
+    
+    background-color:  hsl(47, 88%, 63%);
+    font-size:0.7rem;
+    font-weight: 900;
+    
+}
+
+.Published{
+    /* position:relative;
+    top:2rem;
+    left:-5.8rem; */
+    margin-top: 0.8rem;
+    font-size: 0.7rem;
+}
+.descTitle{
+    margin-top: 1rem;
+}
+.descTitle p{
+    position: relative;
+    left:-0.05rem;
+    /* display: inline; */
+    /* max-width: 100%; */
+    font-size: 1.2rem;
+    font-weight: bold;
+    text-align: left;
+    
+    
+}
+.desc p{
+   text-align: left;
+   margin-top: 1rem;
+   font-size: 0.9rem;
+   color:hsl(0, 0%, 42%);
+   line-height: 1.5rem;
+}
+img{
+    width:30%;
+    display: inline;
+    height:auto;
+
+}
+.author{
+    display: flex;
+    margin-top:1.3rem;
+    justify-content: space-between;
+    align-items: center;
+}
+.author p{
+    
+    display: inline;
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
