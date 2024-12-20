@@ -28,6 +28,7 @@ body{
     max-width: 23rem;
     height:auto;
     background-color: hsl(0, 0%, 100%);
+    box-shadow: 0.5rem 0.5rem ;
 }
 svg{
     
@@ -100,5 +101,9 @@ img{
     display: inline;
     font-size: 0.9rem;
     font-weight: 700;
+}
+.attribution{
+    position:fixed;
+    top:44rem;
 }
 
