@@ -104,6 +104,6 @@ img{
 }
 .attribution{
     position:fixed;
-    top:44rem;
+    bottom:0;
 }
 
